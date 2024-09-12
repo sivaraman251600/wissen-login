@@ -40,6 +40,6 @@ export const loginInitAction = (formData) => {
         dispatch(loginSuccess(data?.token));
         dispatch(user(data?.token));
       })
-      .catch((error) => console.error(error));
+      .catch((error) => loginError(error));
   };
 };
