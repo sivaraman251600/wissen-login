@@ -1,0 +1,76 @@
+.login-container-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  label {
+    text-align: left;
+  }
+
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      background-color: rgb(100, 100, 244);
+      color: white;
+      width: 20%;
+      cursor: pointer;
+      padding: 10px 40px;
+
+      &.disable {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgb(219, 219, 232);
+        color: rgb(103, 109, 232);
+        width: 20%;
+        padding: 10px 40px;
+      }
+    }
+  }
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-input {
+  padding-right: 30px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input {
+    padding: 10px 20px;
+}
