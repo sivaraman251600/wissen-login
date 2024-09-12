@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Login from './components/Login/Login.component';
 import UserList from './components/UserList/UserList.component';
 import NavComponent from './components/Nav/Nav.component';
