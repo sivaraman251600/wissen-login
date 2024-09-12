@@ -27,7 +27,7 @@ export const user = (token) => {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
+        "Authorization": `Bearer ${token}`,
       },
     })
       .then(async (response) => await response.json())
